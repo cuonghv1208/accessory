@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NbThemeModule, NbLayoutModule, NbSidebarModule, NbMenuModule, NbDialogModule, NbWindowModule, NbToastrModule } from '@nebular/theme';
 import { NbEvaIconsModule } from '@nebular/eva-icons';
-import { LayoutModule } from 'src/customs/layouts/layout.module';
+import { LayoutModule } from 'src/@customs/layouts/layout.module';
 import { ClientModule } from './client/client.module';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
