@@ -1,6 +1,10 @@
 @import 'themes';
 
 @import '~@nebular/theme/styles/globals';
+@import "~@ng-select/ng-select/themes/default.theme.css";
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 @include nb-install() {
   @include nb-theme-global();

@@ -1,5 +1,36 @@
 <nb-layout>
-    <nb-layout-header></nb-layout-header>
+    <nb-layout-header class="flex p-0 items-center justify-center bg-header">
+        <div class="row">
+            <ul class="list-none flex">
+                <li><img src="" [routerLink]="'/accessory/home'" class="h-14 w-48 bg-yellow-400 px-2 cursor-pointer"
+                        alt="No image">
+                </li>
+                <li class="my-auto px-2 text-white">
+                    <ng-select class="text-white" style="min-width: 170px;" [items]="locations"></ng-select>
+                </li>
+                <li class="my-auto px-2">
+                    <nb-form-field style="min-width: 25rem !important;max-width: 25rem !important;">
+                        <input nbInput style="min-width: 25rem;">
+                        <button nbSuffix nbButton ghost>
+                            <nb-icon icon="search-outline"></nb-icon>
+                        </button>
+                    </nb-form-field>
+                </li>
+                <li class="my-auto px-2 text-white">
+                    <nb-icon class="text-white" icon="phone-outline"></nb-icon>
+                    <label class="text-white">Gọi ngay: 1800.1997</label>
+                </li>
+                <li class="my-auto px-2 text-white">
+                    <nb-icon class="text-white" icon="pin-outline"></nb-icon>
+                    <label class="text-white">Tìm cửa hàng</label>
+                </li>
+                <li class="my-auto px-2 text-white">
+                    <nb-icon class="text-white" icon="shopping-cart-outline"></nb-icon>
+                    <label class="text-white">Giỏ hàng</label>
+                </li>
+            </ul>
+        </div>
+    </nb-layout-header>
     <nb-layout-column>
         <router-outlet></router-outlet>
     </nb-layout-column>

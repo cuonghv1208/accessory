@@ -6,7 +6,9 @@ import {
     NbButtonModule,
     NbCardModule,
     NbContextMenuModule,
+    NbFormFieldModule,
     NbIconModule,
+    NbInputModule,
     NbLayoutDirection,
     NbLayoutModule,
     NbMediaBreakpoint,
@@ -58,6 +60,8 @@ const NB_MODULES = [
     NbSelectModule,
     NbIconModule,
     NbEvaIconsModule,
+    NbInputModule,
+    NbFormFieldModule
 ];
 
 const PIPES = [
